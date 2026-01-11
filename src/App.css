@@ -100,14 +100,14 @@ h1, h2, h3, h4 {
 
 .guest-block {
   margin-top: 70px;
-  height: 60px;
+  height: 58px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .guest-block h2 {
-  font-size: 54px;
+  font-size: 52px;
   font-weight: 300;
 }
 
@@ -117,7 +117,7 @@ h1, h2, h3, h4 {
 }
 
 .about-guest-block p {
-  font-size: 22px;
+  font-size: 20px;
   width: 90%;
   text-align: center;
 }
@@ -203,14 +203,14 @@ h1, h2, h3, h4 {
   margin-top: 70px;
   padding-left: 30px;
   width: 270px;
-  height: 290px;
+  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-day-two {
-  margin-top: 10px;
+  margin-top: 0px;
   display: flex;
   justify-content: right;
 }
@@ -225,13 +225,17 @@ h1, h2, h3, h4 {
 }
 
 .about-day-three {
-  margin-top: 70px;
+  margin-top: 80px;
   padding-left: 30px;
-  width: 300px;
+  width: 88%;
   height: 260px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about-day-three h2 {
+  font-size: 38px;
 }
 
 .place-photo {
@@ -346,6 +350,7 @@ h1, h2, h3, h4 {
 
 .love-story-text h2 {
   font-size: 56px;
+  text-wrap: nowrap;
   transform: rotate(-10deg);
   color: #801122;
 }
