@@ -193,7 +193,7 @@ function App() {
           <div className='our-love-story'>
             <p>Апрель... Москва... После прогулки по городу он пригласил ее в ресторан. После пары волнительных минут он задал тот самый вопрос и она сказала - Да!</p>
           </div>
-          <div className='file-about'>
+          {/* <div className='file-about'>
             <div className='white-sphere-block'>
               <div className='white-sphere'></div>
             </div>
@@ -206,7 +206,7 @@ function App() {
             </div>
             <h2>Подарки</h2>
             <p>Подарки - по любви.<br />Лучше в конверте</p>
-          </div>
+          </div> */}
         </div>
         <div className='google-form'>
           <h2>Анкета гостя</h2>
