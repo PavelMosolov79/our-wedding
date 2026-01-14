@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/our-wedding/static/css/main.640a7f66.css",
-    "main.js": "/our-wedding/static/js/main.a42fcb91.js",
+    "main.js": "/our-wedding/static/js/main.941e554a.js",
     "static/js/453.cab3dff5.chunk.js": "/our-wedding/static/js/453.cab3dff5.chunk.js",
     "static/media/OneYear.png": "/our-wedding/static/media/OneYear.6ae728bab992e04a417f.png",
     "static/media/MarckScript-Regular.ttf": "/our-wedding/static/media/MarckScript-Regular.56d9422672f0f67df135.ttf",
@@ -12,11 +12,11 @@
     "index.html": "/our-wedding/index.html",
     "static/media/LineOne.svg": "/our-wedding/static/media/LineOne.69af668c525985ea5c7327cb03643870.svg",
     "main.640a7f66.css.map": "/our-wedding/static/css/main.640a7f66.css.map",
-    "main.a42fcb91.js.map": "/our-wedding/static/js/main.a42fcb91.js.map",
+    "main.941e554a.js.map": "/our-wedding/static/js/main.941e554a.js.map",
     "453.cab3dff5.chunk.js.map": "/our-wedding/static/js/453.cab3dff5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.640a7f66.css",
-    "static/js/main.a42fcb91.js"
+    "static/js/main.941e554a.js"
   ]
 }
