@@ -41,7 +41,7 @@ function App() {
       partnerName: formData.partnerName,
       attendance: formData.attendance,
       alcohol: formData.alcohol.join(','),
-      allergies: formData.allergies,
+      allergies: formData.allergies ?? "-",
     });
 
     try {
@@ -50,7 +50,7 @@ function App() {
         partnerName: formData.partnerName,
         attendance: formData.attendance,
         alcohol: formData.alcohol.join(','),
-        allergies: formData.allergies,
+        allergies: formData.allergies ?? "-",
       });
 
       const response = await fetch(
@@ -77,11 +77,13 @@ function App() {
           <img className='flower' src={Flower} />
         </div>
         <div className='our-photo'>
-          <h1>Яна<br /> Паша</h1>
-          <img className='one-year' src={OneYear}/>
-          <div className='image-bottom'>
-            <img className='play-button' src={PlayButton} />
+          <div className='block-name'>
+            <h1>Яна<br /> Паша</h1>
           </div>
+          <img className='one-year' src={OneYear}/>
+          {/* <div className='image-bottom'>
+            <img className='play-button' src={PlayButton} />
+          </div> */}
         </div>
         <div className='guest-block'>
           <h2>Дорогие гости</h2>
@@ -294,7 +296,7 @@ function App() {
                 </div>
               ))}
             </div>
-            <div className='form-sick'>
+            {/* <div className='form-sick'>
               <label>
                 Есть ли у вас аллергия на какие-либо продукты? (Если да - укажите какие)
                 <textarea
@@ -304,7 +306,7 @@ function App() {
                   placeholder="Молочные продукты, соя и т.д."
                 />
               </label>
-            </div>
+            </div> */}
 
             <button
               type="submit"

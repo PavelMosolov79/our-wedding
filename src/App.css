@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 .our-photo {
   position: relative;
   z-index: 11;
-  background-color: rgb(179, 178, 178);
+  /* background-color: rgb(179, 178, 178); */
   width: 90%;
   border-radius: 14px;
   display: flex;
@@ -73,16 +73,22 @@ h1, h2, h3, h4 {
   border-radius: 14px;
 }
 
-.our-photo h1 {
+.block-name h1 {
   width: 100%;
   /* border: 1px solid blue; */
+  /* height: 100px; */
   position: absolute;
   font-size: 80px;
   line-height: 60px;
   text-align: center;
-  top: -75px;
+  top: -55px;
   color: #801122;
   font-weight: 300;
+}
+
+.our-photo .block-name {
+  height: 80px;
+  width: 100%;
 }
 
 .image-bottom {
@@ -99,7 +105,7 @@ h1, h2, h3, h4 {
 }
 
 .guest-block {
-  margin-top: 70px;
+  margin-top: 30px;
   height: 58px;
   display: flex;
   align-items: center;
